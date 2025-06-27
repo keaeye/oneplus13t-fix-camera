@@ -1,24 +1,15 @@
-# OnePlus 13T Camera Fix for OxygenOS 15
-
-A module to fix camera functionality and correct battery capacity for the OnePlus 13T after updating to or converting to OxygenOS 15.
-
-<a href="https://www.buymeacoffee.com/kinginu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 220px !important;" ></a>
-
-## What This Module Does
-This module resolves camera and battery capacity issues on a OnePlus 13T running OxygenOS. It works by replacing the odm.img from the flashed OxygenOS firmware with the odm.img from the original ColorOS firmware. This will corrects the hardware mismatches that cause the camera and battery reporting problems.
-
-
-## What Works
-After applying this fix, the following functionality should be restored or corrected:
-
-- Correct battery capacity reporting in system settings.
-- Main Camera (Photo & Video)
-- Front Camera (Photo & Video)
-
-## What Doesn't Work
-At present, no major functions are known to be broken by this fix.
-Please report any discovered issues.
-
-## Important Notes
-- Prerequisites: You will likely need an unlocked bootloader and root access (e.g., Magisk) to apply this fix.
-- Signal/Network Issues: To fix any cellular network problems after conversion, you will need the "Fix Signal Oneplus 13T" patch available at this XDA Forums thread: https://xdaforums.com/t/rom-pkx110-oxygenos-convert-oneplus-13t-to-13s.4743853/
+#适用于OxygenOS 15的OnePlus 13T相机修复
+一个模块，用于在更新或转换为OxygenOS 15后修复OnePlus 13T的相机功能和校正电池容量。
+##此模块的功能
+该模块解决了运行OxygenOS的OnePlus 13T上的摄像头和电池容量问题。它的工作原理是将刷新的OxygenOS固件中的odm.img替换为原始ColorOS固件的odm.emg。这将纠正导致相机和电池报告问题的硬件不匹配。
+##什么有效
+应用此修复程序后，应恢复或更正以下功能：
+-在系统设置中正确报告电池容量。
+-主摄像头（照片和视频）
+-前置摄像头（照片和视频）
+##什么不起作用
+目前，没有已知的主要功能被此修复程序破坏。
+请报告发现的任何问题。
+##重要注意事项
+-先决条件：您可能需要解锁的引导加载程序和root访问权限（例如Magisk）才能应用此修复程序。
+-信号/网络问题：要修复转换后的任何蜂窝网络问题。
